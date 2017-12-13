@@ -24,6 +24,12 @@ html, body {
   background: #9CA0AA;
 }
 
+#welcomeText{
+  display: inline-block;
+  vertical-align: middle;
+  padding: .75em 1em;
+}
+
 #page {
   font-size: 1em;
   margin: 0em auto;
