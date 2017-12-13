@@ -37,7 +37,7 @@ html, body {
 }
 
 #textHolder {
-  width: 75%;
+  width: 60%;
   margin: auto;
 }
 
@@ -49,7 +49,7 @@ html, body {
 
 #bar {
   background-color: white;
-  height: 2em;
+  height: 3em;
 }
 
 .floatBox {
