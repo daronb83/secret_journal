@@ -9,14 +9,14 @@
 <body>
     <div ng-controller="myController" class="floatBox">
         <div id=bar>
+          <h3 id="welcomeText">Welcome, <%= username %></h3>
           <a id="logoutLink" href="/logout"><button>logout</button></a>
-          <a id="editLink" href="/user"><button>Edit My Secrets</button></a>
         </div>
-        <h3 id="welcomeText">Welcome, <%= username %></h3>
 
         <p>Secret Journal is a safe place to keep your deepest fears, hopes, or confessions. So you
           write away, knowing your words are safe.
         </p><br>
+        <a id="editLink" href="/user"><button>Edit My Secrets</button></a>
 
         <div id="journalText">
         <h2>My Secrets</h2><br><br>

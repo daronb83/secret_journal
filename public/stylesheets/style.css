@@ -38,8 +38,12 @@ html, body {
 
 #journalText {
   padding: 3em;
-  background-color: #FFFFFF;
+  background-color: white;
   width: 75%;
+}
+
+#bar {
+  background-color: white;
 }
 
 .floatBox {
@@ -114,6 +118,7 @@ button {
   border: none;
   border-radius: .3em;
   transition-duration: 0.4s;
+  float: right;
 }
 button:hover { background-color: #81A2B6; }
 button:active { background-color: #DEDEDF; }
