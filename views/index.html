@@ -9,8 +9,8 @@
 <body>
     <div ng-controller="myController">
         <div id=bar>
+          <a id="logoutLink" href="/logout" style="float:left"><button>logout</button></a>
           <h3 id="welcomeText">Welcome, <%= username %></h3>
-          <a id="logoutLink" href="/logout" style="float:right;"><button>logout</button></a>
         </div>
 
       <div class="floatBox">
@@ -20,7 +20,7 @@
         </p><br>
 
         <div class="textHolder">
-        <a id="editLink" href="/user"><button>Edit My Secrets</button></a>  
+        <a id="editLink" href="/user"><button>Edit My Secrets</button></a>
         <div id="journalText">
 
         <h2>My Secrets</h2><br><br>

@@ -37,18 +37,19 @@ html, body {
 }
 
 #textHolder {
-  padding: 3em;
   width: 75%;
   margin: auto;
 }
 
 #journalText {
+  padding: 3em;
   background-color: white;
   width: 100%;
 }
 
 #bar {
   background-color: white;
+  height: 2em;
 }
 
 .floatBox {
