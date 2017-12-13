@@ -7,8 +7,8 @@
 </head>
 
 <body>
-    <div class="form-container" ng-controller="myController">
-        <p id="sectionTitle" class="form-header">User Profile</p>
+    <div class="floatBox" ng-controller="myController">
+        <p id="sectionTitle" class="form-header">Edit Secrets</p>
         <form method="POST" action="/user/update">
             <label>Username:</label>
             <input type="text" id="username" name="username" ng-model="user.username" disabled><br>
@@ -19,9 +19,7 @@
             <input type="submit" id="save" value="Save">
         </form>
     </div>
-    <form method="POST" action="/user/delete">
-        <input type="submit" id="delete" value="Delete User">
-    </form>
+
     <hr>
     <span id="userMsg">
     <%= msg %>
