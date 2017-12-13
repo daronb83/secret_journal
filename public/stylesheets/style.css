@@ -38,12 +38,12 @@ html, body {
 
 #journalText {
   padding: 3em;
-  background-color: #EEEEEE;
+  background-color: #FFFFFF;
 }
 
 .floatBox {
   font-size: 1em;
-  background-color: #F6F9FF;
+  background-color: #DDDDDD;
   box-shadow: 0 .25em .5em 0 rgba(0, 0, 0, 0.2), 0 .3em 1.25em 0 rgba(0, 0, 0, 0.2);
   padding: 1em;
   width: 100%;
