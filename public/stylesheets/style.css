@@ -39,6 +39,7 @@ html, body {
 #journalText {
   padding: 3em;
   background-color: #FFFFFF;
+  width: 75%;
 }
 
 .floatBox {
