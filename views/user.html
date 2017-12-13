@@ -10,10 +10,7 @@
     <div class="floatBox" ng-controller="myController">
         <h3 id="sectionTitle">Edit Secrets</h3>
         <form method="POST" action="/user/update">
-            <label>Username:</label>
-            <input type="text" id="username" name="username" ng-model="user.username" disabled><br>
-            <label>Email:</label>
-            <input type="email" id="email" name="email" ng-model="user.email"><br>
+          
             <label>Edit Journal Entry:</label>
             <textarea type="text" id="journal" name="journal" ng-model="user.journal"></textarea><br>
             <input type="submit" id="save" value="Save">
