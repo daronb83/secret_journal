@@ -36,6 +36,11 @@ html, body {
   background-repeat: no-repeat;
 }
 
+#journalText {
+  padding: 3em;
+  background-color: #EEEEEE;
+}
+
 .floatBox {
   font-size: 1em;
   background-color: #F6F9FF;
