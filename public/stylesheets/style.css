@@ -71,7 +71,7 @@ h1 { font-size: 3em; text-align: center; font-weight: bold; padding: .5em; }
 h2 { font-size: 2em; text-align: center; }
 h3 { font-size: 1.5em; text-align: left; font-weight: lighter;}
 h4 { font-size: .75em; text-align: left; font-weight: lighter; font-style: italic;}
-p  { font-size: 1em; text-align: left; }
+p  { font-size: 1em; text-align: left; margin: 2em}
 
 /* Links */
 a:link { color: #97B2C3; text-decoration: none; }
@@ -118,7 +118,6 @@ button {
   border: none;
   border-radius: .3em;
   transition-duration: 0.4s;
-  float: right;
 }
 button:hover { background-color: #81A2B6; }
 button:active { background-color: #DEDEDF; }
