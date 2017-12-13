@@ -26,6 +26,10 @@ html, body {
 
 #welcomeText{
   padding-left: 1em;
+  height: 3em;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: lighter;
 }
 
 #page {
