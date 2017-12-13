@@ -21,7 +21,9 @@ html, body {
   margin: 0 auto;
   padding: 0 auto;
   font-family: Arial, sans-serif;
-  background: #9CA0AA;
+  background-image: url("public/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #welcomeText{
